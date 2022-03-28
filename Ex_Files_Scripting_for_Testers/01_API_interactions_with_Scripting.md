@@ -20,8 +20,13 @@ If you try to access the github API without authentication, you won't get the pr
 ```
 import requests
 url="https://api.github.com/user"
-
+res=requests.get(url)
+res.json()
 ```
+You will get this:
+` {'message': 'Requires authentication', 'documentation_url': 'https://docs.github.com/rest/reference/users#get-the-authenticated-user'} `
+
+So how to authenticate the request?
 
 - Go to github tokens setting :https://github.com/settings/tokens
 
@@ -33,9 +38,10 @@ import requests
 url="https://api.github.com/user"
 res = requests.get(url,headers={'Authorization':'Bearer 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'})
 res.json()
-
 ```
 
-Now you can see the response with correct info
+Now we can see the response with corect response
 
 ----
+
+
