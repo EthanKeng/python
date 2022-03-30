@@ -44,4 +44,18 @@ Now we can see the response with corect response
 
 ----
 
+## Parse the json data
+
+Get all the keys:
+
+```
+import requests
+url="https://api.github.com/user"
+res = requests.get(url,headers={'Authorization':'Bearer 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'})
+my_json = res.json()
+for key in my_json.keys():
+  print(key)
+```
+
+----
 
