@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 path_to_image = 'images/'
-image_files = [img for img in os.listdir(path_to_image) if img.s$
+image_files = [img for img in os.listdir(path_to_image) ]
 # print(len(image_files))
 
 
