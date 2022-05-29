@@ -13,3 +13,8 @@ Combine mp3 files under the same direcotry into one file and listup all the file
 Refer to this : https://www.thepythoncode.com/article/concatenate-audio-files-in-python
 
 
+## Pick a image and convert mp3 to mp4 for uploading to Youtube
+
+> How to Upload Music to YouTube
+
+refer to this How-to guide: https://www.youtube.com/watch?v=5MY8GpE8Frw 
